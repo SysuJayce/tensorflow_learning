@@ -12,8 +12,8 @@ config.gpu_options.allow_growth = True
 config.gpu_options.per_process_gpu_memory_fraction = 0.5
 config.gpu_options.allocator_type = 'BFC'
 
-DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow-tutorial"
-                 r"\Deep_Learning_with_TensorFlow\datasets\MNIST_data")
+DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow_learning"
+                 r"\datasets\MNIST_data")
 
 # 输出TFRecord文件的地址
 TFRECORD_PATH = (r'D:\codes\python\tensorflow\tensorflow_learning'

@@ -20,8 +20,8 @@ MOVING_AVERAGE_DECAY = 0.99
 # 模型保存在路径和文件名
 MODEL_SAVE_PATH = r"D:\codes\python\tensorflow\book\MNIST\model"
 MODEL_NAME = "model.ckpt"
-DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow-tutorial"
-                 r"\Deep_Learning_with_TensorFlow\datasets\MNIST_data")
+DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow_learning"
+                 r"\datasets\MNIST_data")
 
 
 def train(mnist):

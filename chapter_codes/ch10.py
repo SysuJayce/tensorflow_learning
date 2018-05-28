@@ -2,7 +2,6 @@
 import keras
 import os
 import tensorflow as tf
-import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 from keras.preprocessing import sequence
 from keras.models import Sequential, Model
@@ -113,8 +112,8 @@ def combination():
     config.gpu_options.allow_growth = True
     config.gpu_options.per_process_gpu_memory_fraction = 0.8
     config.gpu_options.allocator_type = 'BFC'
-    DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow-tutorial"
-                     r"\Deep_Learning_with_TensorFlow\datasets\MNIST_data")
+    DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow_learning"
+                     r"\datasets\MNIST_data")
     mnist_data = input_data.read_data_sets(DATA_SET_PATH, one_hot=True)
 
     x = tf.placeholder(tf.float32, shape=(None, 784))
@@ -154,8 +153,8 @@ def estimator_model():
                      'PetalLength', 'PetalWidth']
 
     tf.logging.set_verbosity(tf.logging.INFO)
-    csv_path_root = (r'D:\codes\python\tensorflow\tensorflow-tutorial'
-                r'\Deep_Learning_with_TensorFlow\datasets')
+    csv_path_root = (r'D:\codes\python\tensorflow\tensorflow_learning'
+                     r'\datasets')
 
     def my_input_fn(file_path, perform_shuffle=False, repeat_count=1):
         """

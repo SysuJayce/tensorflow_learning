@@ -28,8 +28,8 @@ MOVING_AVERAGE_DECAY = 0.99
 MODEL_SAVE_PATH = (r"D:\codes\python\tensorflow\tensorflow_learning"
                    r"\TensorBoard\MNIST\model")
 MODEL_NAME = "model.ckpt"
-DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow-tutorial"
-                 r"\Deep_Learning_with_TensorFlow\datasets\MNIST_data")
+DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow_learning"
+                 r"\datasets\MNIST_data")
 
 # 生成一个写日志的writer，并将当前的TensorFlow计算图写入日志。
 log_path = (r'D:\codes\python\tensorflow\tensorflow_learning'

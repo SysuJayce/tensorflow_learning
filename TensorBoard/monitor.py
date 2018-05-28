@@ -11,8 +11,8 @@ config.gpu_options.allocator_type = 'BFC'
 
 SUMMARY_DIR = (r'D:\codes\python\tensorflow\tensorflow_learning'
                r'\TensorBoard\log\monitor')
-DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow-tutorial"
-                 r"\Deep_Learning_with_TensorFlow\datasets\MNIST_data")
+DATA_SET_PATH = (r"D:\codes\python\tensorflow\tensorflow_learning"
+                 r"\datasets\MNIST_data")
 BATCH_SIZE = 100
 TRAIN_STEPS = 3000
 

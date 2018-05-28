@@ -39,8 +39,8 @@ def create_vocab():
     将PTB原始输入文件转换成词汇表
     :return:
     """
-    ROOT = (r'D:\codes\python\tensorflow\tensorflow-tutorial'
-            r'\Deep_Learning_with_TensorFlow\datasets\TED_data')
+    ROOT = (r'D:\codes\python\tensorflow\tensorflow_learning\datasets'
+            r'\TED_data')
     RAW_DATA = ROOT + '\\train.txt.zh'
     VOCAB_OUTPUT = (r'D:\codes\python\tensorflow\book'
                     r'\NLP\translation.vocab.zh')
@@ -72,8 +72,8 @@ def vocab_to_id():
     也就是将训练文件中的句子转换成了id列表
     :return:
     """
-    ROOT = (r'D:\codes\python\tensorflow\tensorflow-tutorial'
-            r'\Deep_Learning_with_TensorFlow\datasets\TED_data')
+    ROOT = (r'D:\codes\python\tensorflow\tensorflow_learning\datasets'
+            r'\TED_data')
     RAW_DATA = ROOT + '\\train.txt.zh'
     OUTPUT_DATA = r'D:\codes\python\tensorflow\book\NLP\translation.zh'
     VOCAB = r'D:\codes\python\tensorflow\book\NLP\translation.vocab.zh'

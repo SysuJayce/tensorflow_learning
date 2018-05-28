@@ -35,8 +35,8 @@ def create_vocab():
     将PTB原始输入文件转换成词汇表
     :return:
     """
-    ROOT = (r'D:\codes\python\tensorflow\tensorflow-tutorial'
-            r'\Deep_Learning_with_TensorFlow\datasets\PTB_data')
+    ROOT = (r'D:\codes\python\tensorflow\tensorflow_learning\
+    datasets\PTB_data')
     RAW_DATA = ROOT + '\ptb.train.txt'
     VOCAB_OUTPUT = r'D:\codes\python\tensorflow\book\NLP\ptb.vocab'
 
@@ -64,8 +64,8 @@ def vocab_to_id():
     也就是将训练文件中的句子转换成了id列表
     :return:
     """
-    ROOT = (r'D:\codes\python\tensorflow\tensorflow-tutorial'
-            r'\Deep_Learning_with_TensorFlow\datasets\PTB_data')
+    ROOT = (r'D:\codes\python\tensorflow\tensorflow_learning\datasets'
+            r'\PTB_data')
     RAW_DATA = ROOT + '\ptb.test.txt'
     OUTPUT_DATA = r'D:\codes\python\tensorflow\book\NLP\ptb.test'
     VOCAB = r'D:\codes\python\tensorflow\book\NLP\ptb.vocab'
